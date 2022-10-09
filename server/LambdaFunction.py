@@ -7,5 +7,6 @@ def lambda_handler(event, context):
     
     return {
         'statusCode': 200,
-        'body': json.dumps('John Taylor says ...') #tried using event['keyword'] here and it didnt work :(
+        'body': json.dumps('John Taylor says ' + event['keyword']) #tried using event['keyword'] here and it doesn't read url query parameters for whatever reason
     }
+
