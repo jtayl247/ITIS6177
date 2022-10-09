@@ -1,0 +1,4 @@
+https://ged6om2525wihwkainlusydpey0yjkrd.lambda-url.us-east-2.on.aws/
+
+#I couldn't figure out how to make the function read a query parameter properly. I got it to work on test coniditions, but adding the parameter in the url causes
+an internal server issue. I also could not figure out how to correctly use axios to call the lambda function.
